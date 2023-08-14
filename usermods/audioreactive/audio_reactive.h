@@ -1,12 +1,8 @@
 #pragma once
 
 #include "wled.h"
-#include <driver/i2s.h>
 #include <driver/adc.h>
 
-#ifndef ARDUINO_ARCH_ESP32
-  #error This audio reactive usermod does not support the ESP8266.
-#endif
 
 #if defined(WLED_DEBUG) || defined(SR_DEBUG)
 #include <esp_timer.h>
@@ -47,8 +43,6 @@
 
 // use audio source class (ESP32 specific)
 #include "audio_source.h"
-constexpr i2s_port_t I2S_PORT = I2S_NUM_0;       // I2S port to use (do not change !)
-constexpr int BLOCK_SIZE = 128;                  // I2S buffer size (samples)
 
 // globals
 static uint8_t inputLevel = 128;              // UI slider value
