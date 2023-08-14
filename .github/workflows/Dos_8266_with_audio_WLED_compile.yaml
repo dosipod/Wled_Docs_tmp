@@ -20,7 +20,7 @@ jobs:
         pip install --upgrade platformio
         wget https://github.com/dosipod/8266_audio_wled/archive/refs/heads/main.zip -O /tmp/mm.zip
         unzip /tmp/mm.zip -d /tmp
-        find /tmp -maxdepth 1 -name "WLED-*" -type d >> wledfoldername
+        find /tmp -maxdepth 1 -name "8266-*" -type d >> wledfoldername
         mv `cat wledfoldername` /tmp/WLED-maindir
     - name: Run PlatformIO
       run: |
