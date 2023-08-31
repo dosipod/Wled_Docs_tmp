@@ -1,5 +1,5 @@
 ---
-title: 2D and 1D Mixed Setup
+title: Spiral mapping example 
 hide:
   # - navigation
   # - toc
@@ -7,7 +7,7 @@ hide:
 
 ## Overview
 
-WLED supports mixing 2D and 1D setup on the same unit, the expected result is that you could use 2D fixture and still chain a strip after or setup a strip and then a matrix after on the same pin. 
+In this example will create a map that arranges the led in spiral ( circular ) . 
 
 Setup your leds count in Config, LED Preferences as usual, for example 8x8 matrix and a strip of 30 pixels chained at the end of your matrix, total count should be 64 + 30 =94. 
  
