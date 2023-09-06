@@ -1,5 +1,5 @@
 ---
-title: 2D and 1D Mixed Setup
+title: 2D Segments
 hide:
   # - navigation
   # - toc
@@ -7,11 +7,19 @@ hide:
 
 ## Overview
 
-WLED supports mixing 2D and 1D setup on the same unit, the expected result is that you could use 2D fixture and still chain a strip after or setup a strip and then a matrix after on the same pin. 
+HOW TO :  Create segments with  2D setup  ? if you tried to do segments in 2D then it might look  harder then it is  , if you know where is the x and y on the 2d page screen then all become  clear
 
-Setup your leds count in Config, LED Preferences as usual, for example 8x8 matrix and a strip of 30 pixels chained at the end of your matrix, total count should be 64 + 30 =94. 
- 
-Go to Config, 2D setup page and create an 8x8 matrix, and then go to the segments, the 8x8 segments should be created automatically. For the 1D strip, add a new segment with the start pixel beyond the matrix, and it will automatically change to a 1D segment, as in this example 
+<img width="448" alt="image" src="../assets/images/content/2D-Seg02.png">
 
-<img width="448" alt="image" src="../assets/images/content/2D-1D-MIX.png">
-Note: If the matrix is chained after the strip, then use reversing at the bus level, i.e. check Reversed (rotated 180°) in LED & Hardware setup 
+In this example  of  32x16 ( made of two 16x16 but that does not matter ) we segment the matrix to 8 smaller ones
+<img width="448" alt="image" src="../assets/images/content/2DSEG01.png">
+
+Peek view
+
+<img width="448" alt="image" src="../assets/images/content/2D-SEG01.gif">
+
+
+Real leds
+
+<img width="448" alt="image" src="../assets/images/content/2D-SEG02.gif">
+
