@@ -1,5 +1,5 @@
 ---
-title: Spiral mapping example 
+title: How TO 
 hide:
   # - navigation
   # - toc
