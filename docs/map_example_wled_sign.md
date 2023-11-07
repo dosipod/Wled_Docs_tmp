@@ -12,4 +12,5 @@ Just to demo how easy it is to use ledmaps , this time I  used  those pixels i h
 
 <img width="448" alt="image" src="../assets/images/content/mapping/WLED-s.png">
 <img width="448" alt="image" src="../assets/images/content/mapping/wled-sign-leds-image.png">
-
+<img width="448" alt="image" src="../assets/images/content/mapping/wled-sign-gif01.gif">
+<img width="448" alt="image" src="../assets/images/content/mapping/wled-sign-gif02.gif">
