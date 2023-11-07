@@ -1,5 +1,5 @@
 ---
-title: Spiral mapping example 
+title: WLED sign mapping example 
 hide:
   # - navigation
   # - toc
@@ -12,4 +12,4 @@ Just to demo how easy it is to use ledmaps , this time I  used  those pixels i h
 
 <img width="448" alt="image" src="../assets/images/content/mapping/WLED-s.png">
 <img width="448" alt="image" src="../assets/images/content/mapping/wled-sign-leds-image.png">
-Note: If the matrix is chained after the strip, then use reversing at the bus level, i.e. check Reversed (rotated 180°) in LED & Hardware setup 
+
