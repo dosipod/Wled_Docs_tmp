@@ -20,7 +20,8 @@ A.3) How to genrate a ledmap
 If your fixture is wired as a matrix ( led order is not changed ) then you can simpliy use the tool hosted here 
 https://dosipod.github.io/WLED-Ledmap-Generator/
 
-If you however you fixture has odd shape or the order of leds changed then you can use the exacle sheet examples 
+If your fixture has odd shape or the order of leds changed and not waired as a matrix then you can use the  sheet and examples  here 
+https://github.com/dosipod/WLED-Ledmap-Generator/tree/master/assets/odd_shapes
 
 Audio Reactive WLED is a possibility of using WLED controllers in such a way that the LEDs react to music and light up in time. First time this was implemented by a [Sound Reactive Fork](https://github.com/atuline/WLED). As of WLED version 0.14.0-beta1 an usermod is available for original WLED too.
 Currently only ESP32 microcontrollers are supported.
