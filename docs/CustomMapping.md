@@ -5,8 +5,16 @@ hide:
   # - toc
 ---
 
-## The basics 
-A) How to configure a matrix in wled 
+## A) The basics 
+A.1) How to configure a matrix in wled 
+![Example How to configure a matrix in wled](../assets/images/content/mapping/how_to_configure_a_matrix.gif)
+
+A.2) How to create a ledmap 
+Go to your unit ip address  e.g http://10.0.6.17/edit and add a file named ledmap1.json  and reboot wled , you can then select your new map from under the segment or add
+it to the api calls using "ledmap":1  ( note: you can use ledmap1.json to  ledmap10.json but more with build flag  -D WLED_MAX_LEDMAPS=X  where X is max of 156 maps )
+![Example How to create a ledmap in wled](../assets/images/content/mapping/how_to_create_ledmap.jpg)
+
+
 ![Example How to configure a matrix in wled](../assets/images/content/mapping/how_to_configure_a_matrix.gif)
 
 Audio Reactive WLED is a possibility of using WLED controllers in such a way that the LEDs react to music and light up in time. First time this was implemented by a [Sound Reactive Fork](https://github.com/atuline/WLED). As of WLED version 0.14.0-beta1 an usermod is available for original WLED too.
