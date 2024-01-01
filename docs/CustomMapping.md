@@ -10,6 +10,7 @@ A.1) How to configure a matrix in wled
 ![Example How to configure a matrix in wled](../assets/images/content/mapping/how_to_configure_a_matrix.gif)
 
 A.2) How to create a ledmap 
+
 Go to your unit ip address  e.g http://10.0.6.17/edit and add a file named ledmap1.json  and reboot wled , you can then select your new map from under the segment or add
 it to the api calls using "ledmap":1  ( note: you can use ledmap1.json to  ledmap10.json but more with build flag  -D WLED_MAX_LEDMAPS=X  where X is max of 156 maps )
 ![Example How to create a ledmap in wled](../assets/images/content/mapping/how_to_create_ledmap.jpg)
