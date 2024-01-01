@@ -15,7 +15,6 @@ it to the api calls using "ledmap":1  ( note: you can use ledmap1.json to  ledma
 ![Example How to create a ledmap in wled](../assets/images/content/mapping/how_to_create_ledmap.jpg)
 
 
-![Example How to configure a matrix in wled](../assets/images/content/mapping/how_to_configure_a_matrix.gif)
 
 Audio Reactive WLED is a possibility of using WLED controllers in such a way that the LEDs react to music and light up in time. First time this was implemented by a [Sound Reactive Fork](https://github.com/atuline/WLED). As of WLED version 0.14.0-beta1 an usermod is available for original WLED too.
 Currently only ESP32 microcontrollers are supported.
